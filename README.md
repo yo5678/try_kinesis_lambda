@@ -9,7 +9,9 @@ kinesis-lambdaの勉強のために、[参考URL](https://github.com/aws-samples
 
 [Kinesis_blackbelt](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-Black-Belt_2023_AmazonKinesisDataStreams_0430_v1.pdf)によると、以下のように記載されている。
 
-従来処理はデータ生成→保管→分析の順で行うため、データ発生からデータを使えるまでに時間がかかっていた。データ生成→処理→格納という順で少量ずつ早く処理を行うこと（ストリーム処理）でタイムリーな分析が可能である。→AWSのサーバーレスなサービスでAmazon Kinesis Data Streamsがある。
+背景として、従来処理はデータ生成→保管→分析の順で行うため、データ発生からデータを使えるまでに時間がかかっていた。データ生成→処理→格納という順で少量ずつ早く処理を行うこと（ストリーム処理）でタイムリーな分析が可能である。
+
+AWSのサーバーレスなストリーム処理サービスでAmazon Kinesis Data Streamsがある。
 
 ## SQSとの違い
 
@@ -38,4 +40,3 @@ kinesis-lambdaの勉強のために、[参考URL](https://github.com/aws-samples
 などがあげられている。
 
 少し古い記事であるが、[細かい比較表がある記事](https://dev.classmethod.jp/articles/kinesis_vs_sqs/)も存在する。
-
