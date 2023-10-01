@@ -14,6 +14,7 @@ class IotKinesisLambdaCdkStack(Stack):
         stream = kinesis.Stream(self, "IotKinesisLambdaCdkStream")
 
         # IoT Rule with Kinesis Data Stream action
+        # 今回はAWS IOTからKinesisにデータを送信する
         topic_rule = iot.TopicRule(
             self,
             "IotKinesisLambdaCdkRule",
